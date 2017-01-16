@@ -3,7 +3,12 @@ info:
   description: |
     The Mattermost Web Services API is used by Mattermost clients and third party applications to interact with the server. [JavaScript and Golang drivers, along with a Golang bot sample](https://api.mattermost.com/#tag/drivers) connecting to the APIs are also available.
 
-    This is the API reference for the [master branch](https://github.com/mattermost/platform) of the Mattermost server and will be the basis for the next version of Mattermost. For the most recent release of Mattermost see the [API reference here](https://api.mattermost.com).
+    ### Versions
+
+    This is the API reference for version 3.6.0 of the Mattermost server. To see the API reference for other versions, click on a link below.
+
+    * [Mattermost Server 3.5.1](https://api.mattermost.com/3.5/index.html)
+    * [master branch](https://api.mattermost.com/master.html)
 
     ### Changelog
 
@@ -29,7 +34,7 @@ info:
 
     The source code for this API reference is hosted at https://github.com/mattermost/mattermost-api-reference.
 
-  version: master
+  version: 3.6.0
   title: Mattermost API Reference
   termsOfService: 'https://about.mattermost.com/default-terms/'
   contact:
