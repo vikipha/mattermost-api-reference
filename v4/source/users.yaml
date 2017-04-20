@@ -902,8 +902,8 @@
           schema:
             type: object
             required:
-              - userId
-              - hashId
+              - user_id
+              - hash_id
             properties:
               user_id:
                 description: The user GUID
