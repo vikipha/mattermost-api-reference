@@ -88,3 +88,28 @@
           $ref: '#/responses/BadRequest'
         '401':
           $ref: '#/responses/Unauthorized'
+
+  /users/status/username/{username}:
+    get:
+      tags:
+      - status
+      summary: Get user status by username
+      description: |
+        Get a user status from the server for given username.
+        ##### Permissions
+        Must be authenticated.
+      parameters:
+      - name: username
+        in: path
+        description: Users username
+        required: true
+        type: string
+      responses:
+        '200':
+          description: User status retrieval successful
+          schema:
+            $ref: '#/definitions/Status'
+        '401':
+          $ref: '#/responses/Unauthorized'
+        '404':
+          $ref: '#/responses/NotFound'
